@@ -20,8 +20,13 @@ class cal:
     def div(self,a,b):
         return a / b 
     
+    def exp(self,a,b):
+        return a ** b
+
+
 obj = cal()
 print("a + b = ",obj.add(10,5))
 print("a - b = ",obj.sub(10,5))
 print("a * b = ",obj.mul(10,5)) 
 print("a / b =",obj.div(10,5))
+print("a ** b =",obj.exp(10,5))

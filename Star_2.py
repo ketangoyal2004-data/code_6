@@ -5,10 +5,11 @@ for i in range(rows):
     print("")
 
 class details:
-    def __init__(self,name,course,branch):
+    def __init__(self,name,course,branch,age):
         self.name = name
         self.course = course
         self.branch = branch
-        print(f"Name: {self.name}\nCourse: {self.course}\nBranch: {self.branch}")
+        self.age = age
+        print(f"Name: {self.name}\nCourse: {self.course}\nBranch: {self.branch} \nage: {self.age}")
 
 obj = details("John Doe","B.Tech","Computer Science")   
