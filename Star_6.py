@@ -13,4 +13,13 @@ class std:
         self.age = age
         print(f"Name:{self.name}\n Course:{self.course}\n Branch:{self.branch}\n age:{self.age}")
 
+
+class std2(std):
+    def __init__(self,name,course,country):
+        self.name = name
+        self.course = course
+        self.country = country
+        print(f"Name:{self.name}\n Course:{self.course}\n Country:{self.country}")
+
 obj = std("Ketan Goyal","BCA","Computer Science",20)
+obj2 = std2("Ketan Goyal","BCA","India")
