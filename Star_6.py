@@ -6,10 +6,11 @@ for i in range(rows):
     print("")
 
 class std:
-    def __init__(self,name,course,branch):
+    def __init__(self,name,course,branch,age):
         self.name = name
         self.course = course
         self.branch = branch
-        print(f"Name:{self.name}\n Course:{self.course}\n Branch:{self.branch}")
+        self.age = age
+        print(f"Name:{self.name}\n Course:{self.course}\n Branch:{self.branch}\n age:{self.age}")
 
-obj = std("Ketan Goyal","BCA","Computer Science")
+obj = std("Ketan Goyal","BCA","Computer Science",20)
