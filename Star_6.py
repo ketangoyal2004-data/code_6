@@ -21,5 +21,13 @@ class std2(std):
         self.country = country
         print(f"Name:{self.name}\n Course:{self.course}\n Country:{self.country}")
 
+class std3(std2):
+    def __init__(self,name,branch,course):
+        self.name = name
+        self.branch = branch
+        self.course = course
+        print(f"Name:{self.name}\n Branch:{self.branch}\n Course:{self.course}")
+
 obj = std("Ketan Goyal","BCA","Computer Science",20)
 obj2 = std2("Ketan Goyal","BCA","India")
+obj3 = std3("Ketan Goyal","Computer Science","BCA")
